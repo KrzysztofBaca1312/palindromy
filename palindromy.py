@@ -1,10 +1,7 @@
-def is_palindrom(text):
+def is_palindrom(text) :
  """funkcja sprawdza czy podany tekst jest palindromem 
  """
-
- if text == text[::-1]:
-	 return True
- return False
+ return text == text[::-1]
 print(is_palindrom("kajak"))
 print(is_palindrom("potop"))
 print(is_palindrom("rower"))
